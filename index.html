@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="7 cudów świata - 7 najpiękniejszych wysp świata, w tym Mauritius.">
+    <title>7 Cudów Świata</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>7 Cudów Świata</h1>
+        </div>
+        <nav>
+            <button class="menu-toggle" aria-label="Pokaż menu">☰</button>
+            <ul class="menu">
+                <li><a href="#home">Strona Główna</a></li>
+                <li><a href="#gallery">Galeria</a></li>
+                <li><a href="#islands">Wyspy</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>Odkryj 7 najpiękniejszych wysp świata</h2>
+                <p>Egzotyczne miejsca, które zachwycą każdego. Poznaj wyjątkowe historie i widoki.</p>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery-section">
+            <h2>Galeria</h2>
+            <div class="slideshow">
+                <div class="slides">
+                    <img src="images/mauritius.jpg" alt="Mauritius">
+                    <img src="images/bali.jpg" alt="Bali">
+                    <img src="images/maldives.jpg" alt="Malediwy">
+                    <img src="images/santorini.jpg" alt="Santorini">
+                    <img src="images/hawaii.jpg" alt="Hawaje">
+                    <img src="images/seychelles.jpg" alt="Seszele">
+                    <img src="images/tahiti.jpg" alt="Tahiti">
+                </div>
+            </div>
+        </section>
+
+        <section id="islands" class="islands-section">
+            <h2>Najpiękniejsze Wyspy</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Wyspa</th>
+                        <th>Opis</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mauritius</td>
+                        <td>Egzotyczny raj na Oceanie Indyjskim, znany z turkusowych wód i wyjątkowej przyrody.</td>
+                    </tr>
+                    <tr>
+                        <td>Bali</td>
+                        <td>Indonezyjska wyspa pełna świątyń, pól ryżowych i wulkanicznych krajobrazów.</td>
+                    </tr>
+                    <tr>
+                        <td>Malediwy</td>
+                        <td>Archipelag składający się z 26 atoli koralowych, idealne miejsce na wakacje.</td>
+                    </tr>
+                    <tr>
+                        <td>Santorini</td>
+                        <td>Grecka wyspa słynąca z białych domków z niebieskimi dachami.</td>
+                    </tr>
+                    <tr>
+                        <td>Hawaje</td>
+                        <td>Kolebka surfingu, z niesamowitymi plażami i aktywnymi wulkanami.</td>
+                    </tr>
+                    <tr>
+                        <td>Seychelles</td>
+                        <td>Wyspy granitowe na Oceanie Indyjskim, znane z unikalnej fauny i flory.</td>
+                    </tr>
+                    <tr>
+                        <td>Tahiti</td>
+                        <td>Polinezyjski raj otoczony lagunami i palmami kokosowymi.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Formularz kontaktowy</h2>
+            <form>
+                <label for="name">Imię:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Wiadomość:</label>
+                <textarea id="message" name="message"></textarea>
+
+                <button type="submit">Wyślij</button>
+                <button type="reset">Wyczyść</button>
+            </form>
+        </section>
+
+        <section class="map-section">
+            <h2>Mapa Mauritius</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7879163.521517088!2d53.72306249976055!3d-15.363059604083704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x217c504df94474c9%3A0x4203d9c2116bd031!2sMauritius!5e0!3m2!1spl!2spl!4v1736876065509!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section class="video-section">
+            <h2>Film</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/bMMBM6g7oTw?si=eLJ6emGftryJYGDf&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+    </main>
+    <a href="https://pl.wikipedia.org/wiki/Mauritius" target="_blank" rel="noopener noreferrer">Dowiedz się więcej o Mauritiusie</a>
+    <h3>Ranking moich ulubionych wysp</h3>
+    <ol>
+        <li>Malediwy</li>
+        <li>Mauritius</li>
+        <li>Santorini</li>
+        <li>Bali</li>
+        <li>Tahiti</li>
+        <li>Seychelles</li>
+        <li>Hawaje</li>
+    </ol>
+    <footer>
+        <p>Autor: Ignacy Maliszewski 2tc</p>
+    </footer>
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const menu = document.querySelector('.menu');
+
+        menuToggle.addEventListener('click', () => {
+            menu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
