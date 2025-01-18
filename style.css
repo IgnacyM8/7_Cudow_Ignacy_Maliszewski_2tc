@@ -103,7 +103,7 @@ table th, table td {
     border: 1px solid #ddd;
 }
 
-table th, footer{
+table th {
     background: #008080;
     color: white;
 }
@@ -168,5 +168,97 @@ table th, footer{
 
     header {
         position: relative;
+    }
+
+    .hero-content {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+
+    table {
+        font-size: 0.8em;
+    }
+
+    .contact-section form {
+        width: 100%;
+    }
+
+    .contact-section button {
+        padding: 8px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1200px) {
+    .menu {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .hero {
+        padding: 50px 20px;
+    }
+
+    .hero-content {
+        max-width: 70%;
+        margin: 0 auto;
+        font-size: 1.2em;
+    }
+
+    .slideshow {
+        width: 90%;
+    }
+
+    table {
+        width: 95%;
+    }
+
+    table th, table td {
+        padding: 8px;
+    }
+
+    .contact-section form {
+        width: 90%;
+    }
+
+    .contact-section button {
+        padding: 10px 15px;
+    }
+}
+
+@media (min-width: 1201px) {
+    .menu {
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .hero {
+        padding: 100px 40px;
+    }
+
+    .hero-content {
+        max-width: 60%;
+        margin: 0 auto;
+        font-size: 1.5em;
+    }
+
+    .slideshow {
+        width: 80%;
+    }
+
+    table {
+        width: 80%;
+    }
+
+    table th, table td {
+        padding: 15px;
+    }
+
+    .contact-section form {
+        width: 70%;
+    }
+
+    .contact-section button {
+        padding: 15px 20px;
+        font-size: 1.1em;
     }
 }
